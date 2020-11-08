@@ -19,5 +19,5 @@ AWS Lambda, API Gateway
 Body Parameters : email  
   
 * POST https://kp6loroqa2.execute-api.eu-west-2.amazonaws.com/dev/api/justify  
-Header Parameters : Authorization: token <token>  
+Header Parameters : Authorization = token `<token>`   
 Body Parameters : text
