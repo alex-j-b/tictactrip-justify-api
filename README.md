@@ -15,9 +15,13 @@ AWS Lambda, API Gateway
 
 ## Endpoints
 
-* POST https://kp6loroqa2.execute-api.eu-west-2.amazonaws.com/dev/api/token  
+### Domain : https://kp6loroqa2.execute-api.eu-west-2.amazonaws.com/dev/
+
+* POST api/token  
+Content-Type: application/json  
 Body Parameters : email  
   
-* POST https://kp6loroqa2.execute-api.eu-west-2.amazonaws.com/dev/api/justify  
+* POST api/justify  
+Content-Type: text/plain  
 Header Parameters : Authorization = token `<token>`   
 Body Parameters : text
