@@ -24,4 +24,4 @@ Body Parameters : email
 * POST api/justify  
 Content-Type: text/plain  
 Header Parameters : Authorization = token `<token>`   
-Body Parameters : text
+Body : `<email>`  
