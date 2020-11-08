@@ -19,7 +19,7 @@ AWS Lambda, API Gateway
 
 * POST api/token  
 Content-Type: application/json  
-Body Parameters : email  
+Body Parameters : email = `<email>`  
   
 * POST api/justify  
 Content-Type: text/plain  
